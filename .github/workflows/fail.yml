@@ -1,0 +1,18 @@
+# .github/workflows/fail-example.yml
+name: 실패 workflow
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  fail-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Intentional Failure
+        run: |
+          echo "This step will fail..."
+          exit 1
