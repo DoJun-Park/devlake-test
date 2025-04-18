@@ -29,6 +29,8 @@ imagePullSecrets: []
 commonEnvs:
   TZ: "UTC"
 
+  
+
 mysql:
   # if use external mysql server, please set true
   # by default using false, chart will create a single mysql instance
