@@ -24,6 +24,7 @@ imageTag: v1.0.1
 # image pull secrets
 imagePullSecrets: []
 
+
 #the common environments for all pods except grafana, grafana needs to be set in grafana section seperately
 commonEnvs:
   TZ: "UTC"
