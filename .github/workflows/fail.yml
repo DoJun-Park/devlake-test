@@ -1,9 +1,9 @@
 # .github/workflows/fail-example.yml
-name: 실패 workflow
+name: 실패 workflow (운영)
 
 on:
   push:
-    branches: [ "fail" ]
+    branches: [ "main" ]
 
 jobs:
   fail-job:

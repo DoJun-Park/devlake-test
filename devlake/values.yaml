@@ -15,6 +15,7 @@
 # limitations under the License.
 #
 
+
 # replica count
 replicaCount: 1
 imageTag: v1.0.1
