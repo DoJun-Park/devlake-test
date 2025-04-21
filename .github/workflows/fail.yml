@@ -3,7 +3,7 @@ name: 실패 workflow
 
 on:
   push:
-    branches: [ "fail" ]
+    branches: [ "main" ]
 
 jobs:
   fail-job:
